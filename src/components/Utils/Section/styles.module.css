@@ -1,0 +1,14 @@
+.header {
+  font-family: 'Quandco';
+}
+
+.subtitle {
+  font-family: 'Quandco';
+  font-size: 1em;
+  opacity: .8;
+}
+
+.body {
+  padding-top: 1em;
+  font-family: 'Open Sans'
+}

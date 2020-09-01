@@ -1,0 +1,18 @@
+.title {
+    color: white;
+  }
+.date {
+    color: white;
+}
+.subtitle {
+    color: white;
+}
+
+@media(max-width: 576px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .date, .subtitle {
+        font-soze: 1.2rem;
+    }
+}
