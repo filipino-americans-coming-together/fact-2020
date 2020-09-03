@@ -5,12 +5,15 @@ import Card from 'react-bootstrap/Card'
 
 import styles from './UICard.module.css'
 
-const DEFAULT_BACKGROUND = `linear-gradient(215deg, rgba(241,164,232,1) 0%, rgba(200,178,223,1) 66%)`
+const DEFAULT_BACKGROUND = `linear-gradient(215deg, rgba(249,186,169,1) 10%, rgba(88,164,149,1) 99%)`
 
 const UICard = ({ background, children, className, ...rest }) => (
   <Card 
     style={{
-      background: background ? background : DEFAULT_BACKGROUND
+      background: background ? background : DEFAULT_BACKGROUND,
+      
+      
+      
     }}
     className={
       classNames('py-2 boxShadow', styles.card, className)
@@ -34,7 +37,7 @@ UICard.Header = ({ children, className, ...rest }) => (
 UICard.Title = ({ children, className, ...rest }) => (
   <h1 
     className={classNames(
-      'text-center letterSpacing animated fadeIn fontQuandco',
+      'text-center letterSpacing animated fadeIn fontPlayfair',
       className
     )}
     {...rest}
@@ -45,7 +48,7 @@ UICard.Title = ({ children, className, ...rest }) => (
 UICard.Subtitle = ({ children, className, ...rest }) => (
   <h4 
     className={classNames(
-      'text-center letterSpacing animated fadeIn fontOpenSans',
+      'text-center letterSpacing animated fadeIn fontRoboto',
       className
     )}
     {...rest}

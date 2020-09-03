@@ -22,3 +22,30 @@
 .fontOpenSans {
     font-family: 'Open Sans'
 }
+
+.fontRoboto {
+    font-family: 'Roboto'
+}
+
+.fontHelvetica {
+    font-family: 'Helvetica';
+    letter-spacing: .15em;
+}
+
+
+.fontPlayfair {
+    font-family: 'Playfair Display, serif';
+    font-style: italic;
+    font-weight: 1000;
+    letter-spacing: .15em;
+}
+
+.fontPlayfairBody {
+    font-family: 'Playfair Display';
+    
+}
+
+.fontCabin {
+    font-family: 'Cabin';
+    
+}

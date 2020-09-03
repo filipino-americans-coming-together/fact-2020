@@ -13,14 +13,16 @@ import ImageHeader from '../../components/Utils/ImageHeader'
 import Footer from '../../components/Footer'
 
 import styles from './styles.module.css'
+import Image from 'react-bootstrap/Image'
 
 const Event = ({ time, title, location, duration }) => (
  <div className='boxShadow' style={{
-    background: `linear-gradient(215deg, rgba(241,164,232,1) 0%, rgba(200,178,223,1) 66%)`,
-    borderRadius: '.5em',
+    background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(43,125,116,1)  90%)`,
+    borderRadius: '.3em',
     marginBottom: '.75em',
     marginTop: '.75em',
     padding: '.75em',
+    marginLeft: '.1em',
     paddingTop: '.5em',
     minHeight: `${3.4 * duration}em`,
     display: 'flex'
@@ -29,7 +31,7 @@ const Event = ({ time, title, location, duration }) => (
       flex: 2
     }}>
       <p 
-        className='fontOpenSans p-0 m-0 text-white'
+        className='fontCabin p-0 m-0 text-white'
         style={{
           fontWeight: 900,
           fontSize: '.9em',
@@ -42,17 +44,19 @@ const Event = ({ time, title, location, duration }) => (
       paddingLeft: '1em'
     }}>
       <p
-        className='fontOpenSans p-0 m-0 text-white'
+        className='fontCabin p-0 m-0 text-white'
         style={{
           fontWeight: 600,
-          fontSize: '1em'
+          fontSize: '1em',
+          textAlign: 'left'
         }}
       >{title}</p>
       <p
-        className='fontOpenSans p-0 m-0 text-white'
+        className='fontCabin p-0 m-0 text-white'
         style={{
           fontWeight: 300,
-          fontSize: '1em'
+          fontSize: '1em',
+          textAlign: 'left'
         }}
       >{location}</p>
     </div>
@@ -63,10 +67,10 @@ const Day = ({ day, events }) => (
   <div style={{ marginBottom: '2em' }}>
   <h3 
     style={{
-      fontWeight: 200,
+      fontWeight: 10,
       paddingBottom: '.5em'
     }}
-    className='text-center fontOpenSans'
+    className='text-center fontCabin'
   >{day}</h3>
   {(events || []).map(event => (
     <Event {...event}/>
@@ -76,112 +80,102 @@ const Day = ({ day, events }) => (
 )
 const Agenda = () => (
   <Row>
-    <Col md={{ span: 8, offset: 2 }} lg={{ span: 5, offset: 1}}>
-    <Day day="Friday" events={[
+    <Col md={{ span: 4, offset: 0 }} lg={{ span: 12, offset: 0}}>
+    <Day day="Sunday, Nov. 7" events={[
       {
-        time: "4:00 - 10:00pm",
+        time: "Time TBD",
         duration: 1,
-        title: "Registration",
-        location: "Asian American Cultural Center",
-      },
-      {
-        time: "7:00 - 9:00pm",
-        duration: 2,
-        title: "Opening Ceremonies",
-        location: "Gregory Hall Auditorium",
-      }
-    ]}/>
-    </Col>
-    <Col md={{ span: 8, offset: 2 }} lg={{ span: 5, offset: 0 }}>
-    <Day day="Saturday" events={[
-      {
-        time: "8:30 - 9:30am",
-        duration: 1,
-        title: "Late Registration",
-        location: "University YMCA",
-      },
-      {
-        time: "9:00 - 9:40am",
-        duration: .75,
         title: "Opening Session",
-        location: "Lincoln Hall Theater",
-      },
-      {
-        time: "9:55 - 11:00am",
-        duration: 1.1,
-        title: "Workshop Session I",
-        location: "Assigned Location"
-      },
-      {
-        time: "11:15am - 12:20pm",
-        duration: 1.1,
-        title: "Workshop Session II",
-        location: "Assigned Location"
-      },
-      {
-        time: "12:20 - 1:30pm",
-        duration: 1.1,
-        title: "Lunch",
-      },
-      {
-        time: "1:45 - 3:00pm",
-        duration: 1.25,
-        title: "Workshop Session III",
-        location: "Assigned Location"
-      },
-      {
-        time: "3:15 - 4:15pm",
-        duration: 1,
-        title: "Meet the Facilitators & Wristband Pick-up",
-        location: "Asian American Cultural Center"
-      },
-      {
-        time: "5:00 - 7:00pm",
-        duration: 2,
-        title: "Variety Show",
-        location: "Foellinger Auditorium"
+        location: "Location TBD",
       }
     ]}/>
     </Col>
+    <Col md={{ span: 4, offset: 0}} lg={{ span: 4, offset: 0}}>
+    <Day day="Monday, Nov. 8" events={[
+      {
+        time: "3:00 - 7:00pm CST",
+        duration: 1,
+        title: "Session I",
+        location: "Zoom",
+      }
+    ]}/>
+    </Col>
+    <Col md={{ span: 4, offset: 0}} lg={{ span: 4, offset: 0}}>
+    <Day day="Tuesday, Nov. 9" events={[
+      {
+        time: "3:00 - 7:00pm CST",
+        duration: 1,
+        title: "Session II",
+        location: "Zoom",
+      }
+    ]}/>
+    </Col>
+    <Col md={{ span: 4, offset: 0}} lg={{ span: 4, offset: 0}}>
+    <Day day="Wed., Nov. 10" events={[
+      {
+        time: "3:00 - 7:00pm CST",
+        duration: 1,
+        title: "Session III",
+        location: "Zoom",
+      }
+    ]}/>
+    </Col>
+    
   </Row>
 )
 const Landing = () => (
   <>
-    <Layout>
-      <ImageHeader imageURL='/img/background.jpg'>
-        <h3 className={`animated fadeIn fontMoam ${styles.date}`}>2019</h3>
-        <h2 className={`animated fadeIn fontMoam ${styles.title}`}>Filipino-Americans Coming Together</h2>
-        <h3 className={`animated fadeIn fontMoam ${styles.subtitle}`}>Conference</h3>
+    <Layout style={{
+        backgroundColor: 'rgba(249,186,169,0.00)'
+      }}  className={`animated fadeIn`}>
+      <ImageHeader imageURL='/img/bridge.jpg'>
+        <center><Image src={"/img/bird-worded.png"} width="400" height="600" className="center" /></center>
       </ImageHeader>
-      <Section>
-        <Section.Title>About</Section.Title>
+      <Section style={{
+        background: `
+        linear-gradient(rgba(249,186,169,1)0%, rgba(241,164,232,0) 10%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
+        `,
+        
+      }}>
+        <Section.Title style={{marginTop:'2em'}}>About</Section.Title>
         <Section.Body>
           <Container>
             <Row>
               <Col
                 md={12}
-                lg={{ span: 10, offset: 1}}
+                lg={{ span: 12, offset: 0}}
               >
-                <p className='text-black-50'>We unite Filipino-Americans. Filipino-Americans Coming Together (FACT) Conference brings together over 1000 Filipino-Americans from the Midwest and around the country into a weekend filled with lasting experiences at the University of Illinois at Urbana-Champaign (UIUC) campus. Through our workshops and variety show, you will rediscover your Filipino-American identity while feeling belonging in a larger community.</p>
+                <center>
+                <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em'}}>
+                  We unite Filipino-Americans. The Filipino-Americans Coming Together (FACT) Conference has brought thousands of
+                  Filipino-Americans together over its over 25 year old history. Delegates come from across the Midwest, America, and even from Canada to 
+                  participate in FACT every year, creating lasting memories of their novel experiences
+                  here at the University of Illinois at Urbana-Champaign. No matter the year and the theme, FACT always aims for delegates
+                  to discover more about the Filipino-American identity through our various workshops and our variety show. Let us help you make
+                  memories that will last a lifetime. </p>
+                </center>
               </Col>
             </Row>
           </Container>
         </Section.Body>
       </Section>
-      <Section>
+
+      <Section >
         <Section.Body>
           <Container>
             <UICard>
               <UICard.Header>
-                <UICard.Title>Register for FACT 2019</UICard.Title>
-                <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle>
+                <UICard.Title>Our Response to COVID-19</UICard.Title>
+                {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
               </UICard.Header>
               <UICard.Body>
                 <Row>
                   <Col lg={{ span: 6, offset: 3 }}>
-                    <p className='text-white p-2' style={{ fontSize: '1.1em'}}>
-                      Registration is now closed. However, we have onsite registration on Nov 9th! Attendees who register onsite will still be able to attend workshops and other conference activities, but will have limited workshop options.
-                    </p>
+                    <center>
+                      <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
+                        Due to concerns over COVID-19, it was decided that FACT would be converted to an online format this year for the health and safety of all particpants. We will be utilizing Zoom and other online resources to facilitate workshops and our events. We hope to provide the best experience for all FACT 2020 particpants using this format and we hope to see you there!
+                      </p>
+                    </center>
                   </Col>
                 </Row>
               </UICard.Body>
@@ -189,8 +183,91 @@ const Landing = () => (
           </Container>
         </Section.Body>
       </Section>
+      
       <Section>
-        <Section.Title>Conference Agenda</Section.Title>
+        <Row>
+        <Col
+            md={12}
+            lg={{ span: 4, offset: 2}}
+          >
+            <Section>
+            <Section.Title>Theme</Section.Title>
+            <Section.Body>
+              <Container>
+                    <center><Image src={"/img/bird.png"} width="200" height="300"/></center>
+                    
+                    <p className='text-50' style={{textAlign: 'justify'}}>The UIUC Philippine Student Association proudly presents the theme for 
+                    this year’s Filipino Americans Coming Together Conference; “Kalinangán: Power in Unity”. In Tagalog,
+                    Kalinangán translates to “culture” or “civilization” in English, as culture is a uniting factor
+                    that everyone shares and has the power to affect future generations.</p>
+
+                    <p className='text-50' style={{textAlign: 'justify'}}>The Sarimanok bird represents the 
+                    well-kept traditions and stories of Filipino culture, but it
+                    also symbolizes the resilience of the bird in modern culture and art. It is known for having
+                    colorful wings in popularized images originating from Mindanao ethnic art. The diversity
+                    shown through the bird’s image emphasizes our conferences values in diversity,
+                    expression, and strength in adversity.</p>
+                   
+                    
+              </Container>
+            </Section.Body>
+            </Section>
+          </Col>
+            
+
+          <Col
+            md={12}
+            lg={{span: 4, offset: 0}}
+          >
+            <Section>
+            <Section.Title>Mission</Section.Title>
+              <Section.Body>
+                <Container>
+                  <center><Image src={"/img/logo.PNG"} width="200" height="300"/></center>
+                
+                  <p className='text-50' style={{textAlign: 'justify'}}>
+                  A movement is taking shape within our society and within each of us as we face the
+                  challenges ahead. 2020 began with several historic events, tragedies, and significant
+                  changes to the way we live and how we move forward as individuals.
+                  </p>
+                  <p className='text-50' style={{textAlign: 'justify'}}>
+                  As Filipino Americans and other races and ethnicities take part in this conference, we would like to
+                  echo to our delegates the foundations of working as a community to further educate and
+                  engage with each other in meaningful ways to advance minority communities as a
+                  whole. We believe that every individual can be an agent for change, and we can all act
+                  in solidarity to bring light to issues that have long been dismissed.
+                  </p>
+                  <br></br>
+                
+                </Container>
+              </Section.Body>
+            </Section>
+          </Col>
+          
+        </Row>
+      </Section>
+
+
+      {/* <Section>
+        <Section.Title></Section.Title>
+        <Section.Body>
+          <Container>
+            <Row>
+              <Col
+                md={12}
+                lg={{ span: 12, offset: 0}}
+              >
+                <center><Image src={"/img/logo2020.jpg"} width="200" height="300" className="center"/></center>
+                
+              </Col>
+            </Row>
+          </Container>
+        </Section.Body> 
+      </Section> */}
+
+     
+      <Section>
+        <Section.Title>Conference Agenda (WIP)</Section.Title>
         <Section.Body>
           <Container>
               <Col 
@@ -204,7 +281,9 @@ const Landing = () => (
           </Container>
         </Section.Body>
       </Section>
-      <Section>
+
+      
+      {/* <Section>
         <Section.Title>Fact 2018 Recap</Section.Title>
         <Section.Body>
           <Container>
@@ -218,7 +297,7 @@ const Landing = () => (
               </Col>
           </Container>
         </Section.Body>
-      </Section>
+      </Section> */}
       <Footer/>
     </Layout>
   </>

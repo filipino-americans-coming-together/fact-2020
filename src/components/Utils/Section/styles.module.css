@@ -1,14 +1,20 @@
 .header {
-  font-family: 'Quandco';
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 1000;
+  color:  rgba(43,125,116,1);
 }
 
 .subtitle {
-  font-family: 'Quandco';
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 1000;
   font-size: 1em;
   opacity: .8;
 }
 
 .body {
   padding-top: 1em;
-  font-family: 'Open Sans'
+  font-family: 'Cabin';
+  color: gray;
 }

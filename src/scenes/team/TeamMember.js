@@ -14,22 +14,26 @@ const ProfileImage = styled(Image)`
   margin-bottom: 0;
   border-radius: .75em;
   width: 100%;
+  box-shadow: 0px 2px 20px 1px rgba(212,212,212,1);
 `
 const Name = styled.h4`
   font-size: 1.75em;
-  font-weight: 700;
-  font-family: 'Open Sans';
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: .05em;
+  color:  rgba(43,125,116,1);
 `
 
 const Position = styled.h5`
   font-size: 1.75;
   font-weight: 700;
-  font-family: 'Open Sans';
+  font-family: 'Cabin';
 `
 
 const Education = styled.h6`
   font-size: 1.2em;
-  font-family: 'Open Sans';
+  font-family: 'Cabin';
 `
 
 
@@ -58,7 +62,9 @@ const TeamMember = ({ name, year, major, position, bio, imageURL}) => (
     </Col>
 
     <div className='d-block d-lg-none'>
-      <Name className='text-center'>{name}</Name>
+      <Name className='text-center fontPlayfair'>
+        {name}
+        </Name>
       <Position className='text-center text-black-50'>{position}</Position>
       <Education className='text-center text-black-50 pb-3 '>{`${year} studying ${major}`}</Education>
       <Row>

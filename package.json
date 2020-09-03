@@ -1,5 +1,5 @@
 {
-	"name": "fact-2019",
+	"name": "fact-2020",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -10,9 +10,10 @@
 		"react-bootstrap": "^1.0.0-beta.9",
 		"react-dom": "^16.8.6",
 		"react-helmet": "^5.2.1",
+		"react-image-resizer": "^1.3.0",
 		"react-motion": "^0.5.2",
 		"react-router-dom": "^5.0.1",
-		"react-scripts": "3.0.1",
+		"react-scripts": "2.1.8",
 		"react-youtube": "^7.9.0",
 		"styled-components": "^4.4.0"
 	},

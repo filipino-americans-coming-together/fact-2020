@@ -3,10 +3,19 @@
   }
 .date {
     color: white;
+    font-size: 2em
 }
 .subtitle {
     color: white;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 
 @media(max-width: 576px) {
     .title {

@@ -6,32 +6,35 @@ import Nav from 'react-bootstrap/Nav'
 
 import styles from './styles.module.css'
 const Navigation = () => (
-  <Navbar bg="light" expand="lg" className={`${styles.nav} boxShadow`}>
+  <Navbar fixed="top"  expand="lg" className={`${styles.nav} boxShadow`}>
     <Link to='/'>
-      <Navbar.Brand className={styles.brand}>FACT Conference</Navbar.Brand>
+      <Navbar.Brand className={styles.brand}><img src={"/img/logo.PNG"} style={{width:50, marginTop: 0}}/>FACT 2020</Navbar.Brand>
     </Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse>
-      <Nav className="mr-auto">
-        <li className='nav-item'>
+    <Nav className="mr-auto">
+        {/* <li className='nav-item'>
           <Link
-            className={`nav-link fontOpenSans ${styles.link}`}
+            className={`nav-link fontCabin ${styles.link}`}
             to='/'
           >Home</Link>
-        </li>
+        </li> */}
         <li className='nav-item'>
           <Link 
-            className={`nav-link fontOpenSans ${styles.link}`}
+            className={`nav-link fontCabin ${styles.link}`}
             to='/team'
-          >Team</Link>
+          >Meet The Team</Link>
         </li>
         <li className='nav-item'>
-          <Link 
-            className={`nav-link fontOpenSans ${styles.link}`}
-            to='/workshops'
-          >Workshops</Link>
+          <a href='https://www.facebook.com/psafact'
+           className={`nav-link fontCabin ${styles.link}`}
+           target="_blank"
+           >
+          Stay Tuned for More Updates!
+          </a>
         </li>
       </Nav>
+      
     </Navbar.Collapse>
   </Navbar>
 )

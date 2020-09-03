@@ -1,6 +1,6 @@
 .card {
   border: none !important;
-  border-radius: 2em !important; 
+  border-radius: .3em !important; 
 
   transition: transform .3s ease-in-out;
   transform: scale(1);

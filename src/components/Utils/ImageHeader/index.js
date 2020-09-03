@@ -6,8 +6,11 @@ import styles from './styles.module.css'
 
 const ImageHeader = ({ imageURL, children }) => {
   const image = {
+    width:'100%',
+    height:'800px',
+    marginTop: '55px',
     background: `
-    linear-gradient(30deg, rgba(241,164,232,.7) 18%, rgba(200,178,223,.5) 86%),
+    linear-gradient(rgba(249,186,169,1)0%, rgba(241,164,232,0) 10%, rgba(241,164,232,0) 90%, rgba(249,186,169,1)),
       no-repeat center url(${imageURL})
     `,
     backgroundSize: 'cover',

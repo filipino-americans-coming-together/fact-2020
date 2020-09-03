@@ -54,7 +54,7 @@ const Schedule = () => (
             <Col md={4}>
               <EventList>
                 <Event
-                  title={'Late Registration'}
+                  title={'Yeet Registration'}
                   time={'08:30 - 09:30'}
                   location={'American Asian Cultural Center'}/>
                 <Event

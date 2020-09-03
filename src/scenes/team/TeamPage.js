@@ -10,12 +10,12 @@ import Section from '../../components/Utils/Section'
 import TeamMember from './TeamMember'
 
 const TeamPage = () => (
-  <Layout style={{ paddingTop: '10vh'}}>
+  <Layout style={{ paddingTop: '10vh', backgroundColor: 'rgba(249,186,169,.02)'}}>
     <Section>
-      <Section.Title>Team</Section.Title>
+      <Section.Title>Meet Our Team</Section.Title>
       <Section.Body>
         <Container>
-          <Col xs={12} md={{ span: 10, offset: 1}} className='mb-5' >
+          {/* <Col xs={12} md={{ span: 10, offset: 1}} className='mb-5' >
             <Image 
               data-aos="fade-in"
               data-aos-duration="500"
@@ -24,15 +24,15 @@ const TeamPage = () => (
               style={{ borderRadius: '1em'}} 
               src={`${process.env.PUBLIC_URL}/img/fact-pack/team.jpeg`} 
               fluid />
-          </Col>
+          </Col> */}
           <hr className='col-xs-8 offset-cs-2 col-sm-6 offset-sm-3 p-3'/>
           <TeamMember
-            name='Anthony Mendez'
+            name='Joselle (Josie) Escobar'
             position='Co-Coordinator'
             year='Senior'
-            major='Chemical Engineering'
-            bio='Anthony Mendez is currently a Senior at the University of Illinois at Urbana-Champaign and a third-year board member of UIUC&apos;s Philippine Student Association. Growing up as biracial (Mexican &amp; Filipino), it wasn&apos;t until his Freshman year of High School that he truly started to connect with his Filipino roots by joining a Filipino dance group. From then on, he learned how to embrace both sides of his cultural background. 7 years later, he seeks to give others the same opportunity as well with this year&apos;s FACT conference; not just for Filipinos, but for delegates of every culture to connect with their roots. Overall, he hopes that FACT will be a time for delegates to discover how to understand and themselves.'
-            imageURL='/img/fact-pack/Anthony.jpeg'
+            major='Political Science'
+            bio='Joselle is currently a senior studying Political Science and Criminology at UIUC. During her time at UIUC, she has served in the Philippine Student Association as Co-Cultural chair directing Filipino dance performances, Vice President- External, and currently serves as Co-Coordinator of the 2020 Filipino Americans Coming Together Conference in the Midwest. She is passionate about growing collegiate Fil-Am organizations and Asian-American cultural programming across universities in the Midwest. Along with her interest in the Fil-Am community, she wants to be involved with developing equitable public policies for marginalized communities in Illinois. Her professional experience includes working in several nonprofits such as Chicago Coalition for the Homeless, the New American Welcome Center at the University YMCA, and Unipro Chicago-Midwest. She was also chosen to participate in the Asian Americans Advancing Justice 2020 Youth Leadership Summit in September. Joselle currently serves as a Legislative Aide intern at State Representative Carol Ammons office serving the 103rd district of Illinois assisting with constituent services and policy research. As an upcoming senior, Joselle is looking forward to directing her first large-scale conference and inspiring young delegates within the Filipino/Asian American community to take action in solidarity with other minority communities in 2020 and beyond.'
+            imageURL='/img/fact-pack/Josie.jpg'
           />
           <TeamMember
             name='Denzel Cruz'
@@ -61,7 +61,7 @@ const TeamPage = () => (
           />
           <TeamMember 
             name='Caitlyn Anonuevo'
-            position='TeamFACT Manager'
+            position='Team FACT Manager'
             year='Junior'
             major='MCB'
             bio='Caitlyn Anonuevo is currently a Junior at the University of Illinois at Urbana-Champaign, and she is very excited for this upcoming FACT conference. As past Philanthropy Chair, Caitlyn has enjoyed giving back to the Philippine Student Association by attending events and by acting as co-TeamFACT manager. Joining this organization, Caitlyn has realized the importance of educating herself on her Filipino roots and maintaining this connection throughout her life. Caitlyn&apos;s cultural experiences have taught her the importance of cultural inclusion and activism. Caitlyn hopes to be an active agent for FACT delegates, encouraging them to welcome diversity and embrace the differences that arise from people with varying backgrounds. In addition to UIUC&apos;s PSA, Caitlyn is a cardiovascular ICU volunteer at the Carle Foundation Hospital, and she is a research assistant for a pathobiology lab. In her free time, Caitlyn likes to bingewatch Netflix and spend time with her friends on campus. She will always be down to eat, whether it be AYCE sushi/kbbq or tacos from a local taco truck. To balance her cravings, she enjoys lifting weights at the gym. Caitlyn looks forward to meeting new people from all over the Midwest and the overall experience of FACT 2019!'
@@ -109,7 +109,7 @@ const TeamPage = () => (
           />
           <TeamMember
             name='Priscilla Nguyen'
-            position='TeamFACT Manager'
+            position='Team FACT Manager'
             year='Junior'
             major='Human Development and Family Studies'
             bio='Priscilla Nguyen has been involved in cultural organizations throughout all her life and is excited to be able to be a part of this year&apos;s FACT. Being involved with PSA and Barkada has only strengthened her passion to be involved in cultural awareness and has been a pretty integral part of her life. Currently a junior, she hopes to one day go into Child Life or daycare. Outside of being TeamFACT Manager, she is also a sister of alpha Kappa Delta Phi and also works at a ramen shop. She can&apos;t wait for this year&apos;s FACT and to see all the new and returning faces.'
