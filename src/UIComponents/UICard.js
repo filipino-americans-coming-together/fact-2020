@@ -11,9 +11,6 @@ const UICard = ({ background, children, className, ...rest }) => (
   <Card 
     style={{
       background: background ? background : DEFAULT_BACKGROUND,
-      
-      
-      
     }}
     className={
       classNames('py-2 boxShadow', styles.card, className)

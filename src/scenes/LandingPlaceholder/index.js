@@ -17,7 +17,7 @@ import Image from 'react-bootstrap/Image'
 
 const Event = ({ time, title, location, duration }) => (
  <div className='boxShadow' style={{
-    background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(43,125,116,1)  90%)`,
+    background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%)`,
     borderRadius: '.3em',
     marginBottom: '.75em',
     marginTop: '.75em',
@@ -128,7 +128,7 @@ const Landing = () => (
     <Layout style={{
         backgroundColor: 'rgba(249,186,169,0.00)'
       }}  className={`animated fadeIn`}>
-      <ImageHeader imageURL='/img/bridge.jpg'>
+      <ImageHeader imageURL='/img/newbridge.jpg'>
         <center><Image src={"/img/bird-worded.png"} width="400" height="600" className="center" /></center>
       </ImageHeader>
       <Section style={{
@@ -160,29 +160,7 @@ const Landing = () => (
         </Section.Body>
       </Section>
 
-      <Section >
-        <Section.Body>
-          <Container>
-            <UICard>
-              <UICard.Header>
-                <UICard.Title>Our Response to COVID-19</UICard.Title>
-                {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
-              </UICard.Header>
-              <UICard.Body>
-                <Row>
-                  <Col lg={{ span: 6, offset: 3 }}>
-                    <center>
-                      <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
-                        Due to concerns over COVID-19, it was decided that FACT would be converted to an online format this year for the health and safety of all particpants. We will be utilizing Zoom and other online resources to facilitate workshops and our events. We hope to provide the best experience for all FACT 2020 particpants using this format and we hope to see you there!
-                      </p>
-                    </center>
-                  </Col>
-                </Row>
-              </UICard.Body>
-            </UICard>
-          </Container>
-        </Section.Body>
-      </Section>
+      
       
       <Section>
         <Row>
@@ -191,7 +169,7 @@ const Landing = () => (
               lg={{ span: 4, offset: 2}}
           >
             <Section>
-            <Section.Title>Theme</Section.Title>
+            <Section.Title style={{}}>Theme</Section.Title>
               <Section.Body>
                 <Container>
                       <center><Image src={"/img/bird.png"} width="200" height="300"/></center>
@@ -247,6 +225,29 @@ const Landing = () => (
         </Row>
       </Section>
 
+      <Section >
+        <Section.Body>
+          <Container>
+            <UICard>
+              <UICard.Header>
+                <UICard.Title>Our Response to COVID-19</UICard.Title>
+                {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
+              </UICard.Header>
+              <UICard.Body>
+                <Row>
+                  <Col lg={{ span: 6, offset: 3 }}>
+                    <center>
+                      <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
+                        Due to concerns over COVID-19, it was decided that FACT would be converted to an online format this year for the health and safety of all particpants. We will be utilizing Zoom and other online resources to facilitate workshops and our events. We hope to provide the best experience for all FACT 2020 particpants using this format and we hope to see you there!
+                      </p>
+                    </center>
+                  </Col>
+                </Row>
+              </UICard.Body>
+            </UICard>
+          </Container>
+        </Section.Body>
+      </Section>
 
       {/* <Section>
         <Section.Title></Section.Title>
