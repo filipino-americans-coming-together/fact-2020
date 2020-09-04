@@ -133,7 +133,7 @@ const Landing = () => (
       </ImageHeader>
       <Section style={{
         background: `
-        linear-gradient(rgba(249,186,169,1)0%, rgba(241,164,232,0) 10%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
+        linear-gradient(rgba(88,164,149,1)0%, rgba(241,164,232,0) 15%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
         `,
         
       }}>
