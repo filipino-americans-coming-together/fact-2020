@@ -186,31 +186,31 @@ const Landing = () => (
       
       <Section>
         <Row>
-        <Col
-            md={12}
-            lg={{ span: 4, offset: 2}}
+          <Col
+              md={12}
+              lg={{ span: 4, offset: 2}}
           >
             <Section>
             <Section.Title>Theme</Section.Title>
-            <Section.Body>
-              <Container>
-                    <center><Image src={"/img/bird.png"} width="200" height="300"/></center>
-                    
-                    <p className='text-50' style={{textAlign: 'justify'}}>The UIUC Philippine Student Association proudly presents the theme for 
-                    this year’s Filipino Americans Coming Together Conference; “Kalinangán: Power in Unity”. In Tagalog,
-                    Kalinangán translates to “culture” or “civilization” in English, as culture is a uniting factor
-                    that everyone shares and has the power to affect future generations.</p>
+              <Section.Body>
+                <Container>
+                      <center><Image src={"/img/bird.png"} width="200" height="300"/></center>
+                      
+                      <p className='text-50' style={{textAlign: 'justify'}}>The UIUC Philippine Student Association proudly presents the theme for 
+                      this year’s Filipino Americans Coming Together Conference; “Kalinangán: Power in Unity”. In Tagalog,
+                      Kalinangán translates to “culture” or “civilization” in English, as culture is a uniting factor
+                      that everyone shares and has the power to affect future generations.</p>
 
-                    <p className='text-50' style={{textAlign: 'justify'}}>The Sarimanok bird represents the 
-                    well-kept traditions and stories of Filipino culture, but it
-                    also symbolizes the resilience of the bird in modern culture and art. It is known for having
-                    colorful wings in popularized images originating from Mindanao ethnic art. The diversity
-                    shown through the bird’s image emphasizes our conferences values in diversity,
-                    expression, and strength in adversity.</p>
-                   
+                      <p className='text-50' style={{textAlign: 'justify'}}>The Sarimanok bird represents the 
+                      well-kept traditions and stories of Filipino culture, but it
+                      also symbolizes the resilience of the bird in modern culture and art. It is known for having
+                      colorful wings in popularized images originating from Mindanao ethnic art. The diversity
+                      shown through the bird’s image emphasizes our conferences values in diversity,
+                      expression, and strength in adversity.</p>
                     
-              </Container>
-            </Section.Body>
+                      
+                </Container>
+              </Section.Body>
             </Section>
           </Col>
             
