@@ -80,7 +80,7 @@ const Day = ({ day, events }) => (
 )
 const Agenda = () => (
   <Row>
-    <Col md={{ span: 4, offset: 0 }} lg={{ span: 12, offset: 0}}>
+    <Col md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0}}>
     <Day day="Sunday, Nov. 7" events={[
       {
         time: "Time TBD",
@@ -90,7 +90,7 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 4, offset: 0}} lg={{ span: 4, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Monday, Nov. 8" events={[
       {
         time: "3:00 - 7:00pm CST",
@@ -100,7 +100,7 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 4, offset: 0}} lg={{ span: 4, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Tuesday, Nov. 9" events={[
       {
         time: "3:00 - 7:00pm CST",
@@ -110,7 +110,7 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 4, offset: 0}} lg={{ span: 4, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Wed., Nov. 10" events={[
       {
         time: "3:00 - 7:00pm CST",
