@@ -15,6 +15,55 @@ import Footer from '../../components/Footer'
 import styles from './styles.module.css'
 import Image from 'react-bootstrap/Image'
 
+class ImH extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isDesktop: false //This is where I am having problems
+    };
+
+    this.updatePredicate = this.updatePredicate.bind(this);
+  }
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener("resize", this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updatePredicate);
+  }
+
+  updatePredicate() {
+    this.setState({ isDesktop: window.innerWidth > 1450 });
+  }
+
+  render() {
+    const isDesktop = this.state.isDesktop;
+
+    return (
+      <div>
+        {isDesktop ? (
+          <Section style= {{marginTop: '5vh'}}>
+          <ImageHeader sm = {{ span: 0, offset: 0}} md={{ span: 0, offset: 0}} lg={{ span: 12, offset: 0}}
+           imageURL='/img/banner.png'
+          >
+         </ImageHeader>
+         </Section>
+        ) : (
+          
+          <Section class="main-image" style={{backgroundImage:'url(/img/newBridge.jpg)', backgroundSize: 'cover', marginTop: '5vh',}}>
+            <center>
+            <br></br>
+             <Image src={"/img/bird-worded.png"} width="200" height="300"/>
+            </center>
+         </Section>
+        )}
+      </div>
+    );
+  }
+}
+
+
 const Event = ({ time, title, location, duration }) => (
  <div className='boxShadow' style={{
     background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%)`,
@@ -128,16 +177,14 @@ const Landing = () => (
     <Layout style={{
         backgroundColor: 'rgba(249,186,169,0.00)'
       }}  className={`animated fadeIn`}>
-      <ImageHeader imageURL='/img/newbridge.jpg'>
-        <center><Image src={"/img/bird-worded.png"} width="400" height="600" className="center" /></center>
-      </ImageHeader>
+      <ImH></ImH>
+    
       <Section style={{
         background: `
-        linear-gradient(rgba(88,164,149,1)0%, rgba(241,164,232,0) 15%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
+        linear-gradient(rgba(88,164,149,0)0%, rgba(241,164,232,0) 15%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
         `,
-        
       }}>
-        <Section.Title style={{marginTop:'2em'}}>About</Section.Title>
+        <Section.Title style={{}}>About</Section.Title>
         <Section.Body>
           <Container>
             <Row>
