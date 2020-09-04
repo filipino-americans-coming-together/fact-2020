@@ -139,10 +139,12 @@ const TeamPage = () => (
             bio='Vincent is a passionate musician and artist with an appreciation for culture. His dream job is to make music with a production company such as 88rising, blending Asian culture with his passion. In his free time, he makes music and dances with various groups across campus. He is a fan of the Netflix series Lucifer and The Good Place, and is an avid fan of the anime “Jojo’s Bizarre Adventure”.'
             imageURL='/img/fact-pack/Vincent.jpeg'
           />
-          <Footer/>
+          
         </Container>
       </Section.Body>
     </Section>
+    <Footer/>
   </Layout>
+  
 )
 export default TeamPage
