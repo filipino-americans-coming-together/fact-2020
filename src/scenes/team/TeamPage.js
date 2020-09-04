@@ -10,9 +10,9 @@ import Section from '../../components/Utils/Section'
 import TeamMember from './TeamMember'
 
 const TeamPage = () => (
-  <Layout style={{ paddingTop: '10vh', backgroundColor: 'rgba(249,186,169,.02)'}}>
+  <Layout style={{ paddingTop: '10vh', backgroundColor: 'rgba(249,186,169,0)'}}>
     <Section>
-      <Section.Title>Meet Our Team</Section.Title>
+      <Section.Title style={{backgroundColor: 'rgba(249,186,169,0)'}}>Meet Our Team</Section.Title>
       <Section.Body>
         <Container>
           {/* <Col xs={12} md={{ span: 10, offset: 1}} className='mb-5' >
