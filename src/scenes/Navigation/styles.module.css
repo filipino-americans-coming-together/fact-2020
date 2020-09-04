@@ -2,11 +2,11 @@
   position: fixed !important;
   width: 100%;
   z-index: 1;
-  background-color:	rgb(233, 242, 241);
+  background-color:	rgb(254, 241, 238)
 }
 
 .brand {
-  color:rgba(43,125,116,1) !important;
+  color:rgba(189, 77, 76, 1) !important;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 1000; 

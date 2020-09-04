@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 
 import styles from './UICard.module.css'
 
-const DEFAULT_BACKGROUND = `linear-gradient(215deg, rgba(249,186,169,1) 10%, rgba(88,164,149,1) 99%)`
+const DEFAULT_BACKGROUND = `linear-gradient(215deg, rgba(249,186,169,1) 40%, rgba(189, 77, 76, 1) 99%)`
 
 const UICard = ({ background, children, className, ...rest }) => (
   <Card 

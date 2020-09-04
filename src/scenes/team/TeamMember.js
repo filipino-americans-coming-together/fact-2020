@@ -22,7 +22,7 @@ const Name = styled.h4`
   font-family: 'Playfair Display', serif;
   font-style: italic;
   letter-spacing: .05em;
-  color:  rgba(43,125,116,1);
+  color:  rgba(189, 77, 76, 1);
 `
 
 const Position = styled.h5`

@@ -17,7 +17,7 @@ import Image from 'react-bootstrap/Image'
 
 const Event = ({ time, title, location, duration }) => (
  <div className='boxShadow' style={{
-    background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%)`,
+    background: `linear-gradient(215deg, rgba(249,186,169,1) 30%, rgba(189, 77, 76, 1)  100%)`,
     borderRadius: '.3em',
     marginBottom: '.75em',
     marginTop: '.75em',
@@ -133,7 +133,7 @@ const Landing = () => (
       </ImageHeader>
       <Section style={{
         background: `
-        linear-gradient(rgba(88,164,149,1)0%, rgba(241,164,232,0) 15%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
+        linear-gradient(rgba(249,186,169,1)0%, rgba(241,164,232,0) 15%, rgba(241,164,232,0) 90%, rgba(249,186,169,0))
         `,
         
       }}>
