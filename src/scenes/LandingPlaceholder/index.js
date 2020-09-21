@@ -32,28 +32,24 @@ class ImH extends React.Component {
   componentWillUnmount() {
     window.removeEventListener("resize", this.updatePredicate);
   }
-
   updatePredicate() {
-    this.setState({ isDesktop: window.innerWidth > 1450 });
+    this.setState({ isDesktop: window.innerWidth > 1370 });
   }
 
   render() {
     const isDesktop = this.state.isDesktop;
-
     return (
       <div>
         {isDesktop ? (
           <Section style= {{marginTop: '5vh'}}>
-          <ImageHeader sm = {{ span: 0, offset: 0}} md={{ span: 0, offset: 0}} lg={{ span: 12, offset: 0}}
-           imageURL='/img/banner.png'
-          >
-         </ImageHeader>
-         </Section>
+            <ImageHeader imageURL='/img/banner.png'> 
+            </ImageHeader>
+          </Section>
         ) : (
           
-          <Section class="main-image" style={{backgroundImage:'url(/img/newBridge.jpg)', backgroundSize: 'cover', marginTop: '5vh',}}>
+          <Section class="main-image" style={{backgroundImage:'url(/img/newBridge.jpg)', backgroundSize: 'cover', marginTop: '8vh',}}>
             <center>
-            <br></br>
+           
              <Image src={"/img/bird-worded.png"} width="200" height="300"/>
             </center>
          </Section>
@@ -130,7 +126,7 @@ const Day = ({ day, events }) => (
 const Agenda = () => (
   <Row>
     <Col md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0}}>
-    <Day day="Sunday, Nov. 7" events={[
+    <Day day="Sunday, Nov. 8" events={[
       {
         time: "Time TBD",
         duration: 1,
@@ -140,7 +136,7 @@ const Agenda = () => (
     ]}/>
     </Col>
     <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
-    <Day day="Monday, Nov. 8" events={[
+    <Day day="Monday, Nov. 9" events={[
       {
         time: "3:00 - 7:00pm CST",
         duration: 1,
@@ -150,7 +146,7 @@ const Agenda = () => (
     ]}/>
     </Col>
     <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
-    <Day day="Tuesday, Nov. 9" events={[
+    <Day day="Tuesday, Nov. 10" events={[
       {
         time: "3:00 - 7:00pm CST",
         duration: 1,
@@ -160,7 +156,7 @@ const Agenda = () => (
     ]}/>
     </Col>
     <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
-    <Day day="Wed., Nov. 10" events={[
+    <Day day="Wed., Nov. 11" events={[
       {
         time: "3:00 - 7:00pm CST",
         duration: 1,
@@ -169,7 +165,16 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    
+    <Col md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0}}>
+    <Day day="Friday, Nov. 13" events={[
+      {
+        time: "Time TBD",
+        duration: 1,
+        title: "Variety Show",
+        location: "Location TBD",
+      }
+    ]}/>
+    </Col>
   </Row>
 )
 const Landing = () => (
@@ -210,10 +215,10 @@ const Landing = () => (
       
       
       <Section>
-        <Row>
+        <Row style={{marginRight:0}}>
           <Col
-              md={12}
-              lg={{ span: 4, offset: 2}}
+            md={12}
+            lg={{ span: 4, offset: 2}}
           >
             <Section>
             <Section.Title style={{}}>Theme</Section.Title>
@@ -232,8 +237,6 @@ const Landing = () => (
                       colorful wings in popularized images originating from Mindanao ethnic art. The diversity
                       shown through the bird’s image emphasizes our conferences values in diversity,
                       expression, and strength in adversity.</p>
-                    
-                      
                 </Container>
               </Section.Body>
             </Section>
@@ -265,7 +268,7 @@ const Landing = () => (
                   <br></br>
                 
                 </Container>
-              </Section.Body>
+            </Section.Body>
             </Section>
           </Col>
           

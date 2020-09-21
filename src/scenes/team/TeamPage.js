@@ -35,109 +35,129 @@ const TeamPage = () => (
             imageURL='/img/fact-pack/Josie.jpg'
           />
           <TeamMember
-            name='Denzel Cruz'
-            position='Co-Coordinator'
-            year='Senior'
-            major='Bioengineering'
-            bio='Denzel has loved being part of the University of Illinois at Urbana-Champaign&apos;s Philippine Student Association as a former Webmaster and FACT Pack Hospitality Chair. He spent the summer at the University of Nebraska Medical Center as part of their MD-PhD Summer Undergraduate Research Program and will be presenting his research at the Biomedical Engineering Society Annual Meeting this October 16-19. Denzel recently took the MCAT (Medical College Admissions Test) for the second time and increased his scores in all four sections. He plans to do research at the National Institutes of Health for a year before applying to MD-PhD programs. Denzel aspires to become a physician scientist, forming a safe and welcoming health clinic for Filipino-Americans and addressing the health concerns within this population. He can&apos;t wait to meet more people and for the delegates to have a great time at FACT!'
-            imageURL='/img/fact-pack/Denzel.jpeg'
-          />
-          <TeamMember 
-            name='Erika Marie Saligan'
-            position='Co-Coordinator'
-            year='Senior'
-            major='Integrative Biology'
-            bio='Erika Marie Saligan is a senior studying Integrative Biology with a certificate in Global Health. She was born in Ozamiz City, Philippines and moved to Urbana, Illinois with her family in 2006. Growing up, she saw her family&apos;s involvement in the local Filipino-American community and she was in awe when she found out there was the Philippine Student Association (PSA) at UIUC. Since her freshman year, she has pursued various leadership roles in PSA, as she was past Awareness Co-Chair and President and now FACT Co-Coordinator. She is also a member of Kappa Phi Lambda Sorority, Inc. and the Poy Health and Wellness Intern at the Asian American Cultural Center on campus. She has loved every second of her involvement in the Asian American community, where she has learned the importance of teamwork and leadership. During her free time, she enjoys listening to Korean pop music, using her bullet journal, and spending time with her family and friends. She is looking forward to meeting you all at FACT!!!'
-            imageURL='/img/fact-pack/Erika.jpeg'
-          />
-
-          <TeamMember
-            name='Alpri Else'
-            position='Information Technology'
-            year='Junior'
-            major='Computer Science'
-            bio='Alpri is passionate about creating technology in the interest of solving people&apos;s problems. He&apos;s currently taking the semester off to work as a Frontend Software Engineer for a tech company in Boston that helps thousands of organizations grow better. In his free time, he&apos;s developed applications to help professors teach more effectively, aid students better find courses that align with their interests and career goals, and helped organize the largest student-run technology conference in the Midwest. To relax, Alpri loves watching Netflix, drinking boba, and exploring new places, always bringing his Sony a6500 to take pictures. He&apos;s excited to grab some Latea and talk about Stranger Things and Black Mirror with delegates going to FACT 2019!'
-            imageURL='/img/fact-pack/Alpri.jpeg'
-          />
-          <TeamMember 
             name='Caitlyn Anonuevo'
-            position='Team FACT Manager'
-            year='Junior'
-            major='MCB'
-            bio='Caitlyn Anonuevo is currently a Junior at the University of Illinois at Urbana-Champaign, and she is very excited for this upcoming FACT conference. As past Philanthropy Chair, Caitlyn has enjoyed giving back to the Philippine Student Association by attending events and by acting as co-TeamFACT manager. Joining this organization, Caitlyn has realized the importance of educating herself on her Filipino roots and maintaining this connection throughout her life. Caitlyn&apos;s cultural experiences have taught her the importance of cultural inclusion and activism. Caitlyn hopes to be an active agent for FACT delegates, encouraging them to welcome diversity and embrace the differences that arise from people with varying backgrounds. In addition to UIUC&apos;s PSA, Caitlyn is a cardiovascular ICU volunteer at the Carle Foundation Hospital, and she is a research assistant for a pathobiology lab. In her free time, Caitlyn likes to bingewatch Netflix and spend time with her friends on campus. She will always be down to eat, whether it be AYCE sushi/kbbq or tacos from a local taco truck. To balance her cravings, she enjoys lifting weights at the gym. Caitlyn looks forward to meeting new people from all over the Midwest and the overall experience of FACT 2019!'
+            position='Co-Coordinator'
+            year='Senior'
+            major='Molecular and Cellular Biology'
+            bio='Caitlyn Añonuevo is currently a Senior at the University of Illinois at Urbana-Champaign, and throughout the years, she has served as the past Philanthropy Chair, Team FACT Manager, and now FACT Co-Coordinator for the Philippine Student Association. By joining this organization, Caitlyn has realized the importance of educating herself on her Filipino roots and maintaining this connection throughout her life. With this year’s theme, Caitlyn would like to encourage delegates to welcome diversity and uplift one another in their respective communities and beyond. As FACT transitions online, Caitlyn is excited to take the conference to schools all around the nation and combine efforts in the current movements that are shaping society. In addition to UIUC&apos;s PSA, Caitlyn is a personal assistant for the Division of Disability Resources and Educational Services at UIUC, a hospital volunteer for the Carle Foundation Hospital, a peer mentor for MCB Leaders, and she is the President of the American Medical Women’s Association. In her free time, Caitlyn likes to bingewatch Netflix and spend time with her friends on campus. She will always be down to eat, whether it be tacos from a local taco truck or desserts from a bake shop. To balance her cravings, she enjoys living a life grounded in fitness, specifically lifting weights. Caitlyn looks forward to coordinating the first virtual online conference with her FACT Pack and co-chair, and more importantly, best friend.'
             imageURL='/img/fact-pack/Caitlyn.jpeg'
           />
-          <TeamMember
-            name='Carmel Bumaa'
-            position='Marketing'
-            year='Junior'
-            major='Advertising'
-            bio='Carmel is excited for FACT this year because it’s a weekend filled with fun! She is hoping to talk to new people and relieve stress from school. She also enjoyed her position with her co-chair, Sonica! In her free time, she likes to eat, sleep, listen to music, watch movies, and travel. Her favorite color is pink and her favorite animated character is eeyore. :) '
-            imageURL='/img/fact-pack/Carmel.jpeg'
-          />
-          <TeamMember
-            name='David Ko'
-            position='Media'
+          <TeamMember 
+            name='Michael Baccay'
+            position='Campus Ambassador'
             year='Senior'
-            major='Molecular Cell Biology'
-            bio='David has been a part of UIUC’s PSA since his freshman year; former Athletic chair and a performer for Barkada of FACT 2018. Over the summer he interned at his father’s pharmaceutical company and took the DAT (Dental Admissions Test), placing in the top 0.1% in the nation. Now in his final year of college, he spends a lot of time alone in the library studying for his classes while he gets ready to leave for Dental school the next fall. David is currently an active brother of Lambda Phi Epsilon fraternity on campus, and likes to “destress” with his bros on the weekends. In his free time he likes to lift weights casually, but stopped serious bodybuilding due to a permanent spinal condition. His goal in the future is to own a dental practice and start a Research &amp; Development company to further improve and distribute dental technology.'
-            imageURL='/img/fact-pack/David.jpeg'
-          />
-          <TeamMember 
-            name='Emily Oh'
-            position='Variety Show Coordinator'
-            year='Junior'
-            major='Education Major and Communication Minor'
-            bio='Emily&apos;s passion and joy in life is to teach the youngins and seeing each and everyone of her students grow in different ways. She is currently a junior teaching second graders at Kenwood Elementary School. Emily desires to become a traveling teacher and part take in multiple non-profit organizations that requires her to travel to third world countries and teach the students who does not have opportunity to do so. Emily is juggling working, studying, and being a sister of Alpha Phi Gamma along with her duties of being v-show coordinator. In her free time, she loves to hibernate by watching Black Mirror, sleeping, exercising, and going on long walks. She is STOKED to meet new people and see how FACT this year will benefit each individuals :) '
-            imageURL='/img/fact-pack/Emily.jpeg'
-          />
-          <TeamMember
-            name='Jasmine Cuasay'
-            position='Hospitality'
-            year='Junior'
             major='Economics'
-            bio='Jasmine spent the past two years in a major that made her feel like 😭🥺😣 everyday and now that she’s switching into econ, she feels like 🥰☺️🙈 ! She loves PSA with all her ❤️ and doesn’t know where she’d be without it. When she’s not with PSA, Jasmine enjoys cuddling up with her adorable boxador who she loves the most in the world, Maizy! Jasmine is also a big foodie- get her a big bowl of chirashi sushi or a nice medium rare steak and she’ll love you 5ever. She’s a little shy so please be kind when you meet her at FACT 2019 (๑❛ᴗ❛๑)'
-            imageURL='/img/fact-pack/Jasmine.jpeg'
+            bio='Michael is a fun loving, easy-going guy in his last year for economics at U of I. An avid hobby enthusiasts with a vast variety of interests, Michael has interests ranging from yo-yos to playing the harmonica and saxophone. Always looking to make the best out of any situation, hit him up for video games or a game of chess. Michael also has a diverse media taste, enjoying both the NBA and whatever this season&apos;s anime is, as well as being a self-professed music omnivore, willing to listen to anything.'
+            imageURL='/img/fact-pack/Michael.jpg'
+          />
+           <TeamMember 
+            name='Melencio Jose P. Sanidad'
+            position='Campus Ambassador'
+            year='Junior'
+            major='Undeclared - Chemistry/Integrated Biology'
+            bio='Melencio has been involved with PSA since Freshman year and was also a part of last year&apos;s board as Alumni chair. Other than being involved with PSA he is also a blue belt in taekwondo and part of Illini Taekwondo. He was planning on transferring into Chemistry but has been enjoying his classes in Integrated Biology and second guessing his decision. He is looking forward to helping host the first online FACT and hopes you&apos;re as excited as him!
+            '
+            imageURL='/img/fact-pack/Melencio.jpg'
+          />
+          
+          <TeamMember
+            name='Jacob Olano'
+            position='Hospitality'
+            year='Senior'
+            major='Civil Engineering'
+            bio='As a rising senior in Civil Engineering, Jacob is specifically looking into structural engineering as his main discipline. In his free time, he likes to play basketball, video games, and chill with his friends. I am very excited to serve as Hospitality for FACT this year. Although FACT is limited due to COVID, Jacob is certain that FACT can be successful this year and the Filipino Spirit will be kept alive.'
+            imageURL='/img/fact-pack/Jacob.jpeg'
           />
           <TeamMember 
-            name='Molly Wong'
+            name='Jean Therese Carlos'
             position='Hospitality'
             year='Junior'
             major='Molecular and Cellular Biology '
-            bio='Molly has been involved with UIUC&rsquo;s Philippine Student Association since her freshman year and has served as a former Alumni Chair. She spent the past summer working as a dental assistant at two dental offices while also studying for the DAT (Dental Admissions Test), which she recently took. Molly loves to devote her time to serving others, having also gone on a medical-dental service trip to Honduras and volunteered at Willow Creek Community Church&rsquo;s dental clinic this past summer. Outside of PSA, Molly is a busy pre-dental student; she is a current LAS James Scholar and is a Dean&rsquo;s List regular. When she is not studying for her classes, she is working as part of the MCB Lab Prep Staff or at the gym powerlifting. Molly aspires to become a dental practice owner, hoping to expand her mother and brother&rsquo;s dental practice as well as continuing to serve impoverished communities on dental service trips. She is so excited to meet everyone at FACT!'
-            imageURL='/img/fact-pack/Molly.jpeg'
+            bio='Jean is a junior at UIUC currently studying MCB in the pre-med track. She enjoys sewing, crocheting, and knitting during her free time. She also love watching movies all the time. If you’re ever wondering what to get her as a present, you could never go wrong with chocolate. '
+            imageURL='/img/fact-pack/Jean.jpeg'
           />
           <TeamMember
-            name='Priscilla Nguyen'
-            position='Team FACT Manager'
-            year='Junior'
-            major='Human Development and Family Studies'
-            bio='Priscilla Nguyen has been involved in cultural organizations throughout all her life and is excited to be able to be a part of this year&apos;s FACT. Being involved with PSA and Barkada has only strengthened her passion to be involved in cultural awareness and has been a pretty integral part of her life. Currently a junior, she hopes to one day go into Child Life or daycare. Outside of being TeamFACT Manager, she is also a sister of alpha Kappa Delta Phi and also works at a ramen shop. She can&apos;t wait for this year&apos;s FACT and to see all the new and returning faces.'
-            imageURL='/img/fact-pack/Priscilla.jpeg'
-          />
-          <TeamMember 
-            name='Reggie Pagala'
-            position='Campus Ambassador'
-            year='Junior'
+            name='Reggie (Reijhui Pagala)'
+            position='Information Technology'
+            year='Senior'
             major='Computer Engineering'
-            bio='Reggie (Reijhui) is a junior in Computer Engineering. Going to high school at Lane Tech, he was part of their Filipino Club, Kapamilya Habang Buhay. After coming to the University of Illinois, he wanted to continue his involvement in the Filam community by joining its PSA. From dancing with Barkada to being a part of the AKA program, he&apos;s made many amazing memories with PSA. Now as campus ambassador, he hopes to help make FACT a part of the delegates&apos; amazing memories, too.'
-            imageURL='/img/fact-pack/Reggie.jpeg'
+            bio='Reggie (Reijhui) is a junior in Computer Engineering. Going to high school at Lane Tech, he was part of their Filipino Club, Kapamilya Habang Buhay. After coming to the University of Illinois, he wanted to continue his involvement in the Filam community by joining its PSA. From dancing with Barkada to being a part of the AKA program, he&apos;s made many amazing memories with PSA. Now as information tech, he hopes to help make FACT a part of the delegates&apos; amazing memories, too.'
+            imageURL='/img/fact-pack/Reggie.jpg'
           />
           <TeamMember
-            name='Sonica Battung'
+            name='Ronell Esquivel'
+            position='Marketing'
+            year='Senior'
+            major='Molecular and Cellular Biology'
+            bio='Ronell is a senior in Molecular and Cellular Biology with a Spanish minor. He is a first generation filipino student with aspirations on becoming a Physician; more specifically, a pediatrician. In his free time, Ronell likes to cook Filipino food, go out with his friends, and volunteer at a free clinic or at a hospital.'
+            imageURL='/img/fact-pack/ronell.jpg'
+          />
+          <TeamMember
+            name='Myka Padilla'
             position='Marketing'
             year='Junior'
-            major='English &amp; History'
-            bio='With a deep passion for education, social justice, and graphic design, FACT was the perfect project to invest time in for Sonica. She is most excited to continue building her network of Filipino writers and creators from the Midwest. Outside of FACT, she stands as PSA&apos;s Secretary and library assistant in the Illinois History and Lincoln Collections. When she&apos;s not hanging out with her co-chair, Carmel, she can be found bullet journaling or playing Splatoon. Her favorite genre of music is lofi hip hop beats to study/relax to, while her favorite artists include Marina (formerly of the Diamonds), Catfish &amp; the Bottlemen, and Bleachers. '
-            imageURL='/img/fact-pack/Sonica.jpeg'
+            major='Molecular and Cellular Biology with a Neuroscience Concentration'
+            bio='Myka is interested in improving medicine to eradicate the social inequalities that prevent all people from receiving the same quality of healthcare. Inspired by the current pandemic, she is applying for research and pursuing a minor in Global Health. In her free time, you can find her representing the University of Illinois at Urbana-Champaign as a Student Alumni Ambassador and volunteering at Carle Hospital or Edward Hines Jr. VA Hospital. To unwind, Myka loves listening to podcasts, eating take-out, and spending quality time with her friends. She&apos;s excited to spend a whole week attending FACT and she hopes to see you all there too!'
+            imageURL='/img/fact-pack/Myka.jpg'
           />
-          <TeamMember
-            name='Vincent Wu'
+           <TeamMember
+            name='Camille Adao'
+            position='Marketing'
+            year='Senior'
+            major='Human Development and Family Studies'
+            bio='Camille Adao is from Chicago and she has been in PSA since she was a freshman, and she has grown so much because of it. Over the years, she has started to grow more comfortable the more she was involved. From developing strong bonds with fellow peers in Barkada and being in FACT Pack, it is a great opportunity to give back to an organization that is a family to many. She and her co-chairs are excited to create the graphics you will see throughout the week of FACT!'
+            imageURL='/img/fact-pack/Camille.jpeg'
+          />
+           <TeamMember
+            name='Brion Nono'
+            position='Media'
+            year='Junior'
+            major='Media and Cinema Studies'
+            bio='David has been a part of UIUC’s PSA since his freshman year; former Athletic chair and a performer for Barkada of FACT 2018. Over the summer he interned at his father’s pharmaceutical company and took the DAT (Dental Admissions Test), placing in the top 0.1% in the nation. Now in his final year of college, he spends a lot of time alone in the library studying for his classes while he gets ready to leave for Dental school the next fall. David is currently an active brother of Lambda Phi Epsilon fraternity on campus, and likes to “destress” with his bros on the weekends. In his free time he likes to lift weights casually, but stopped serious bodybuilding due to a permanent spinal condition. His goal in the future is to own a dental practice and start a Research &amp; Development company to further improve and distribute dental technology.'
+            imageURL='/img/fact-pack/Brion.jpg'
+          />
+          <TeamMember 
+            name='Josh Domingo'
+            position='Team FACT Manager'
+            year='Junior'
+            major='Architecture'
+            bio='Josh has always been inspired to help and support other people, whether it&apos;s through volunteering, motivating others to reach their goals, or simply finding the time to be available for his friends and family. With architecture, he hopes to find himself improving the lives of many people with his designs. In his time in college so far, he has been involved with many student organizations that encourage Asian cultural heritage and bringing together the Asian community, especially with the Philippines Student Association. As one of the Team FACT Managers, he hopes to help bring together people of not only the Filipino community, but also the Asian-American community to experience more about Filipino culture. During his free time, he likes to workout, binge Avatar on Netflix and is always down to discover new places to eat.'
+            imageURL='/img/fact-pack/Josh.png'
+          />
+          <TeamMember 
+            name='Lorenzo Magnaye'
+            position='Team FACT Manager'
+            year='Junior'
+            major='Materials Science and Engineering Minoring in Chemistry'
+            bio='Lorenzo Magnaye, or Renzo, is a rising junior studying Materials Science and Engineering and also pursuing a minor in Chemistry. In the field of Materials Science, he is specifically interested in polymers because of their widespread applications.  He is also part of the Illinois Engineering Ambassadors, which is a professional outreach program sponsored by the university to inspire kids who are underrepresented in engineering fields to pursue engineering degrees. During his free time, he loves cooking food, baking bread and cookies, and binge-watching shows and the NBA. Despite the ongoing pandemic, he cannot wait for this year&apos;s conference as he is excited to meet and connect with new people. '
+            imageURL='/img/fact-pack/Lorenzo.jpg'
+          />
+          
+          <TeamMember 
+            name='Alexandria Monsalud'
             position='Variety Show Coordinator'
             year='Junior'
-            major='Music Technology'
-            bio='Vincent is a passionate musician and artist with an appreciation for culture. His dream job is to make music with a production company such as 88rising, blending Asian culture with his passion. In his free time, he makes music and dances with various groups across campus. He is a fan of the Netflix series Lucifer and The Good Place, and is an avid fan of the anime “Jojo’s Bizarre Adventure”.'
-            imageURL='/img/fact-pack/Vincent.jpeg'
+            major='Media and Cinema Studies'
+            bio='Being a former PSA FCN Coordinator and current PSA VPI and FACT V-Show Coordinator, Alexandria is always eager to work on projects that challenge her creativity. Her favorite thing about being innovative with her ideas is seeing the reactions her work elicits. She is excited to collaborate with her cos to make this year&apos;s Variety Show unique and exhilarating. When she has free time, she likes to try new hobbies. Her most recent hobby is rug making. '
+            imageURL='/img/fact-pack/Alex.jpg'
+          />
+
+
+          <TeamMember 
+            name='Jazmin Aguilar'
+            position='Variety Show Coordinator'
+            year='Senior'
+            major='Industrial Design'
+            bio='Jasmine held UIUC PSA’s co-cultural chair position in the year 2019 and helped lead Barkada to a first place victory at Battle of The Bamboo earlier this year. She is a member of the UIUC Odyssey, writing content that you can check out online. Jasmine illustrates and trims her during her free time. You might see her working as a hair stylist or a tattoo artist in the near future.'
+            imageURL='/img/fact-pack/Jazmin.jpeg'
+          />
+          <TeamMember
+            name='Dana Villamena'
+            position='Variety Show Coordinator'
+            year='Junior'
+            major='Architecture'
+            bio='From being just a shy member her freshman year to former Co-Publicity chair and now a part of Team FACT, PSA has given Dana so much love, opportunities, memories, friendships and a family that she knows will always be there for her. FACT has brought her closer to her Filipino roots and culture and wanted to be a part of the team that puts it together to give back and hopefully give that same impact to other delegates! Dana loves creativity and making things fun and different. She is very excited to be working with an amazing team to put together the Variety Show this year!! Some fun FACTs about Dana is that she loves One Direction, loves Italian sausage, can understand and speak Tagalog very well, and her goal is to eat at least 50 pieces of sushi by the end of the year!!! 😃'
+            imageURL='/img/fact-pack/Dana.jpeg'
           />
           
         </Container>
